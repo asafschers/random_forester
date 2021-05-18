@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     scoruby (0.3.4)
-      nokogiri (>= 1.8.5, < 1.11.0)
+      nokogiri (>= 1.8.5, < 1.12.0)
 
 GEM
   remote: https://rubygems.org/
@@ -18,13 +18,15 @@ GEM
     docile (1.1.5)
     json (2.1.0)
     method_source (0.8.2)
-    mini_portile2 (2.4.0)
-    nokogiri (1.10.4)
-      mini_portile2 (~> 2.4.0)
+    mini_portile2 (2.5.1)
+    nokogiri (1.11.4)
+      mini_portile2 (~> 2.5.0)
+      racc (~> 1.4)
     pry (0.10.3)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
+    racc (1.5.2)
     rake (12.0.0)
     rspec (3.5.0)
       rspec-core (~> 3.5.0)

@@ -24,5 +24,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "pry", "~> 0.10"
   spec.add_development_dependency "coveralls"
   spec.add_development_dependency "ruby-prof"
-  spec.add_dependency "nokogiri", ">= 1.8.5", "< 1.11.0"
+  spec.add_dependency "nokogiri", ">= 1.8.5", "< 1.12.0"
 end
